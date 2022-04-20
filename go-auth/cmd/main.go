@@ -23,7 +23,7 @@ func main() {
 
 	jwt := utils.JwtWrapper{
 		SecretKey:       c.JWTSecretKey,
-		Issuer:          "go-grpc-auth-svc",
+		Issuer:          "go-auth",
 		ExpirationHours: 24 * 365,
 	}
 
